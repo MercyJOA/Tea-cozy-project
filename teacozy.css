@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: seashell;
+    background-color: black;
+    font-family:  Helvetica;
+    font-size: 22px;
+    height: 1500px;
+    opacity: 0.9;
+    text-align: center;
+    position: relative;
+
+    
+}
+.navbar{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    margin-bottom: 50px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 100px;
+    background-color: black;
+    margin-top: 0px;
+    padding: 20px;
+    
+    
+
+}
+.navlink ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+    
+.navlink a{
+    text-decoration: underline;
+    color: seashell;
+    
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: none;
+    transition: 2s;
+    }
+    a:active{
+        color: rgb(249, 17, 17);
+        transition: 0s;
+        text-decoration: underline;
+
+    }
+img{
+    height: 50px;
+    font-size: 10px;
+
+}
+.mission-background{
+    margin: 100px 50px;
+    height: 700px;
+    display: flex;
+    padding-top: 80px;
+    background-image: url("tea cozy images/img-mission-background.webp");
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    
+    
+
+    
+
+}
+.mission{
+    background-color: black;
+    flex: 1;
+    height: 120px;
+
+    
+    
+
+
+}
+.mission h2{
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.mission h4{
+    text-align: center;
+    margin: 20px;
+    height: fit-content;
+}
+.teamonth{
+    text-align: center;
+    height: 100px;
+    
+}
+.teamonth h2{
+    margin: 20px;
+    text-align: center;
+}
+.teamonth h4{
+    margin: 10px;
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3 2;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    flex-wrap: wrap;
+    }
+    .image{
+        max-width: fit-content;
+        flex: 2 0;
+
+    }
+    .image p{
+        margin: 10px;
+    }
+    .location{
+        background-image: url("tea cozy images/img-locations-background.webp");
+    height: 500px;
+    margin-top: 50px;
+    }
+    .direction{
+        display: inline-flex;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin: 15px 40px;
+        align-items: center;
+        flex: 1 2;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+
+    }
+    .direction h3{
+        text-align: center;
+        margin: 10px;
+    }
+    .location-heading{
+        margin-top: 50;
+        padding-top: 50px;
+        
+    }
+    .contact{
+        text-align: center;
+        height: 200px;
+    }
+    .contact h2{
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .contact h5{
+        line-height: 50px;
+    }
+    footer{
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        font-size: 15px;
+        height: 50px;
+    }
+    h2{
+        cursor: default;
+    }
+    
